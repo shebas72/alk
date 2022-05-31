@@ -16,6 +16,7 @@
 
 
 <footer id="footer" class="footer-texts-more-lighten">
+<?php if(ICL_LANGUAGE_CODE=='en') {  ?>
 				<div class="container">
 					<div class="row py-4 my-5">
 						<div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
@@ -58,13 +59,13 @@
 							<ul class="list list-unstyled">
 								<li class="pb-1 mb-2">
 									AlKhair Capital Saudi Arabia
-P.O. Box 69410, Madarat Towers
-King Abdul Aziz Road, District Ministries
-Riyadh, 11547
-Kingdom of Saudi Arabia
+                                     P.O. Box 69410, Madarat Towers
+                                     King Abdul Aziz Road, District Ministries
+                                     Riyadh, 11547
+                                     Kingdom of Saudi Arabia
 								</li>
 								<li class="pb-1 mb-2">
-									
+		                                     							
 									<a class="purple font-weight-bold" style="text-decoration: underline; color: #830053" href="tel:+1234567890">Phone Number: 8001241020</a>
 								</li>
 								<li class="pb-1 mb-2">
@@ -77,6 +78,71 @@ Kingdom of Saudi Arabia
 						</div>
 					</div>
 				</div>
+				<?php } ?> 
+
+				<?php if(ICL_LANGUAGE_CODE=='ar') {  ?>
+				<div class="container">
+					<div class="row py-4 my-5">
+						<div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
+							<h5 class="text-4 text-color-light mb-3">Company</h5>
+							<ul class="list list-unstyled mb-0" dir="rtl">
+								<li class="mb-0"><a href="<?php echo home_url(); ?>/about">About Us</a></li>
+							
+								<li class="mb-0"><a href="<?php echo home_url(); ?>/investors-area">Investors Area</a></li>
+								<li class="mb-0"><a href="https://tadawul.alkhaircapital.com.sa/web/" target="_blank">e-Trading</a></li>
+								<li class="mb-0"><a href="https://tadawul.alkhaircapital.com.sa/web/" target="_blank">Investment Account</a></li>
+								<li class="mb-0"><a href="<?php echo home_url(); ?>/responsibility/">Responsibility</a></li>
+								
+							</ul>
+						</div>
+						<div class="col-md-6 col-lg-3 mb-5 mb-lg-0" dir="rtl">
+							<h5 class="text-4 text-color-light mb-3">Services</h5>
+							<ul class="list list-unstyled mb-0">
+								<li class="mb-0"><a href="<?php echo home_url(); ?>/investment-banking">Investment Banking</a></li>
+								<li class="mb-0"><a href="<?php echo home_url(); ?>/custody-brokerage/">Custody & Brokerage</a></li>
+								<li class="mb-0"><a href="<?php echo home_url(); ?>/asset-management">Asset Management</a></li>
+								<li class="mb-0"><a href="<?php echo home_url(); ?>/trading-software/">Trading Software</a></li>
+								
+							</ul>
+						</div>
+						<div class="col-md-6 col-lg-3 mb-5 mb-lg-0" dir="rtl">
+							<h5 class="text-4 text-color-light mb-3">Quick Links</h5>
+							<ul class="list list-unstyled mb-0">
+							<li class="mb-0"><a href="<?php echo home_url(); ?>/customer-care">Customer Care</a></li>
+								<li class="mb-0"><a href="<?php echo home_url(); ?>/latest-news">News</a></li>
+								<li class="mb-0"><a href="<?php echo home_url(); ?>/careers">Careers</a></li>
+								<li class="mb-0"><a href="<?php echo home_url(); ?>/services">Services</a></li>
+								<li class="mb-0"><a href="<?php echo home_url(); ?>/contact">Contact Us</a></li>
+								
+								
+								
+							</ul>
+						</div>
+						<div class="col-md-6 col-lg-3 mb-5 mb-lg-0" dir="rtl">
+							<h5 class="text-4 text-color-light mb-3">Contact Us</h5>
+							<ul class="list list-unstyled">
+								<li class="pb-1 mb-2">
+									AlKhair Capital Saudi Arabia
+                                     P.O. Box 69410, Madarat Towers
+                                     King Abdul Aziz Road, District Ministries
+                                     Riyadh, 11547
+                                     Kingdom of Saudi Arabia
+								</li>
+								<li class="pb-1 mb-2">
+		                                     							
+									<a class="purple font-weight-bold" style="text-decoration: underline; color: #830053" href="tel:+1234567890">Phone Number: 8001241020</a>
+								</li>
+								<li class="pb-1 mb-2">
+									
+									<a class="purple font-weight-bold" style="text-decoration: underline; color: #830053" href="mailto:mail@example.com">Email: info@alkhaircapital.com.sa</a>
+								</li>
+								
+							</ul>
+							
+						</div>
+					</div>
+				</div>
+				<?php } ?> 
 				<div class="container">
 					<div class="footer-copyright footer-copyright-style-2 pt-4 pb-5">
 						<div class="row">
