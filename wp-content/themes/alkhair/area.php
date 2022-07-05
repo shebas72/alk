@@ -161,14 +161,14 @@
 
                                             <div class="row">
                                                 <div class="col-md-5">
-                                               <p><a href="#" class="font-weight-semibold purple">Alkhair Capital Murabaha Fund</a></p>
-                                               <p><a href="#" class="font-weight-semibold purple">Alkhair Capital Saudi Equity Fund</a></p>
-                                               <p><a href="#" class="font-weight-semibold purple">Discretionary Portfolio Management (DPMs)</a></p>
+                                               <p><a href="<?php echo home_url(); ?>/alkhair-capital-murabaha-fund/" class="font-weight-semibold purple">Alkhair Capital Murabaha Fund</a></p>
+                                               <p><a href="<?php echo home_url(); ?>/alkhair-capital-saudi-equity-fund/" class="font-weight-semibold purple">Alkhair Capital Saudi Equity Fund</a></p>
+                                               <p><a href="<?php echo home_url(); ?>/discretionary-portfolio-management-dpms/" class="font-weight-semibold purple">Discretionary Portfolio Management (DPMs)</a></p>
 
                                                 </div>
                                                 <div class="col-md-5">
-													<p><a href="#" class="font-weight-semibold purple">Alkhair Capital Sukuk Plus Fund</a></p>
-													<p><a href="#" class="font-weight-semibold purple">Alkhair Capital IPOs Fund</a></p>
+													<p><a href="<?php echo home_url(); ?>/alkhair-capital-sukuk-plus-fund/" class="font-weight-semibold purple">Alkhair Capital Sukuk Plus Fund</a></p>
+													<p><a href="<?php echo home_url(); ?>/alkhair-capital-ipo-fund/" class="font-weight-semibold purple">Alkhair Capital IPOs Fund</a></p>
 
                                                 </div>
 

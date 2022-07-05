@@ -38,6 +38,9 @@
 								<li class="mb-0"><a href="<?php echo home_url(); ?>/custody-brokerage/">Custody & Brokerage</a></li>
 								<li class="mb-0"><a href="<?php echo home_url(); ?>/asset-management">Asset Management</a></li>
 								<li class="mb-0"><a href="<?php echo home_url(); ?>/trading-software/">Trading Software</a></li>
+								<li class="mb-0"><a href="<?php echo home_url(); ?>/research-services/">
+																Research Services
+																</a></li>
 								
 							</ul>
 						</div>
@@ -70,7 +73,7 @@
 								</li>
 								<li class="pb-1 mb-2">
 									
-									<a class="purple font-weight-bold" style="text-decoration: underline; color: #830053" href="mailto:mail@example.com">Email: info@alkhaircapital.com.sa</a>
+									<a class="purple font-weight-bold" style="text-decoration: underline; color: #830053" href="mailto:info@alkhaircapital.com.sa">Email: info@alkhaircapital.com.sa</a>
 								</li>
 								
 							</ul>
@@ -82,7 +85,7 @@
 
 				<?php if(ICL_LANGUAGE_CODE=='ar') {  ?>
 				<div class="container">
-					<div class="row py-4 my-5">
+					<div class="row py-4 my-5" dir="rtl">
 						<div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
 							<h5 class="text-4 text-color-light mb-3">Company</h5>
 							<ul class="list list-unstyled mb-0" dir="rtl">
@@ -91,50 +94,63 @@
 								<li class="mb-0"><a href="<?php echo home_url(); ?>/investors-area">Investors Area</a></li>
 								<li class="mb-0"><a href="https://tadawul.alkhaircapital.com.sa/web/" target="_blank">e-Trading</a></li>
 								<li class="mb-0"><a href="https://tadawul.alkhaircapital.com.sa/web/" target="_blank">Investment Account</a></li>
-								<li class="mb-0"><a href="<?php echo home_url(); ?>/responsibility/">Responsibility</a></li>
+								<li class="mb-0"><a href="<?php echo home_url(); ?>/responsibility/">المسئولية</a></li>
 								
 							</ul>
 						</div>
 						<div class="col-md-6 col-lg-3 mb-5 mb-lg-0" dir="rtl">
 							<h5 class="text-4 text-color-light mb-3">Services</h5>
 							<ul class="list list-unstyled mb-0">
-								<li class="mb-0"><a href="<?php echo home_url(); ?>/investment-banking">Investment Banking</a></li>
-								<li class="mb-0"><a href="<?php echo home_url(); ?>/custody-brokerage/">Custody & Brokerage</a></li>
-								<li class="mb-0"><a href="<?php echo home_url(); ?>/asset-management">Asset Management</a></li>
-								<li class="mb-0"><a href="<?php echo home_url(); ?>/trading-software/">Trading Software</a></li>
+								<li class="mb-0"><a href="<?php echo home_url(); ?>/investment-banking">
+الخدمات المصرفية الاستثمارية
+</a></li>
+								<li class="mb-0"><a href="<?php echo home_url(); ?>/custody-brokerage/">
+خدمات الحفظ والوساطة المالية
+</a></li>
+								<li class="mb-0"><a href="<?php echo home_url(); ?>/asset-management">
+إدارة الأصول
+</a></li>
+								<li class="mb-0"><a href="<?php echo home_url(); ?>/trading-software/">
+برامج التداول
+</a></li>
 								
 							</ul>
 						</div>
 						<div class="col-md-6 col-lg-3 mb-5 mb-lg-0" dir="rtl">
 							<h5 class="text-4 text-color-light mb-3">Quick Links</h5>
 							<ul class="list list-unstyled mb-0">
-							<li class="mb-0"><a href="<?php echo home_url(); ?>/customer-care">Customer Care</a></li>
-								<li class="mb-0"><a href="<?php echo home_url(); ?>/latest-news">News</a></li>
-								<li class="mb-0"><a href="<?php echo home_url(); ?>/careers">Careers</a></li>
+							<li class="mb-0"><a href="<?php echo home_url(); ?>/customer-care">
+العناية بالعملاء
+</a></li>
+								<li class="mb-0"><a href="<?php echo home_url(); ?>/latest-news">
+المركز الإعلامي
+</a></li>
+								<li class="mb-0"><a href="<?php echo home_url(); ?>/careers">وظائف</a></li>
 								<li class="mb-0"><a href="<?php echo home_url(); ?>/services">Services</a></li>
-								<li class="mb-0"><a href="<?php echo home_url(); ?>/contact">Contact Us</a></li>
+								<li class="mb-0"><a href="<?php echo home_url(); ?>/contact"> تواصل معنا</a></li>
 								
 								
 								
 							</ul>
 						</div>
 						<div class="col-md-6 col-lg-3 mb-5 mb-lg-0" dir="rtl">
-							<h5 class="text-4 text-color-light mb-3">Contact Us</h5>
+							<h5 class="text-4 text-color-light mb-3"> تواصل معنا</h5>
 							<ul class="list list-unstyled">
 								<li class="pb-1 mb-2">
-									AlKhair Capital Saudi Arabia
-                                     P.O. Box 69410, Madarat Towers
-                                     King Abdul Aziz Road, District Ministries
-                                     Riyadh, 11547
-                                     Kingdom of Saudi Arabia
+								شركة الخير كابيتال السعودية
+
+الدور الثامن – أبراج المدارات
+حي الوزارات- طريق الملك عبدالعزيز
+ص ب 69410 الرياض 11547
+
 								</li>
 								<li class="pb-1 mb-2">
 		                                     							
-									<a class="purple font-weight-bold" style="text-decoration: underline; color: #830053" href="tel:+1234567890">Phone Number: 8001241020</a>
+									<a class="purple font-weight-bold" style="text-decoration: underline; color: #830053" href="tel:+1234567890">الرقم المجاني: 8001241020</a>
 								</li>
 								<li class="pb-1 mb-2">
 									
-									<a class="purple font-weight-bold" style="text-decoration: underline; color: #830053" href="mailto:mail@example.com">Email: info@alkhaircapital.com.sa</a>
+									<a class="purple font-weight-bold" style="text-decoration: underline; color: #830053" href="mailto:info@alkhaircapital.com.sa">البريد الإلكتروني: info@alkhaircapital.com.sa</a>
 								</li>
 								
 							</ul>
@@ -143,6 +159,7 @@
 					</div>
 				</div>
 				<?php } ?> 
+				<?php if(ICL_LANGUAGE_CODE=='en') {  ?>
 				<div class="container">
 					<div class="footer-copyright footer-copyright-style-2 pt-4 pb-5">
 						<div class="row">
@@ -167,6 +184,33 @@
 						</div>
 					</div>
 				</div>
+				<?php } ?> 
+				<?php if(ICL_LANGUAGE_CODE=='ar') {  ?>
+				<div class="container">
+					<div class="footer-copyright footer-copyright-style-2 pt-4 pb-5">
+						<div class="row" dir="rtl">
+							<div class="col-3 text-center">
+								<img alt="Al Khair Capital" width="200" src="<?php bloginfo('template_url'); ?>/img/logo_01.svg">
+							</div>
+							<div class="col-6 text-center">
+								<p class="mb-0" style="margin-top:20px"><a href="<?php echo home_url(); ?>/privacy-policy" class="footer-line-link">سياسة الخصوصية</a> <a href="https://alkhaircapital.com.sa/application/files/3516/3989/8142/Disclaimer_of_Fraudulent_Activity.pdf" target="_blank" class="footer-line-link">إخلاء المسؤولية من عمليات الاحتيال</a></li></p>
+							</div>
+							<div class="col-3 text-center">
+								<ul class="social-icons social-icons-clean-with-border social-icons-medium">
+									
+									<li class="">
+										<a href="https://twitter.com/alkhairintl" class="no-footer-css" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+									</li>
+									<li class="">
+										<a href="https://www.linkedin.com/company/alkhairntl/" class="no-footer-css" target="_blank" title="Facebook"><i class="fab fa-linkedin"></i></a>
+									</li>
+									
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<?php } ?> 
 				<div class="footer-copyright">
 					<div class="container">
 						<div class="row py-4">

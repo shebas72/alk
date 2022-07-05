@@ -18,6 +18,10 @@
 </p>
 <p class="mb-49 lead text-4 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="200">
 We pride ourselves on providing bespoke, shariah-compliant investment products and services.</p>
+<p class="mb-49 lead text-4 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="200">
+For complaints, please email us at: <a href="mailto:complaints@alkhaircapital.com.sa">complaints@alkhaircapital.com.sa</a> </p>
+<p class="mb-49 lead text-4 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="200">Or you can submit a request via contact us including your name, address, email, and your preferred contact number. Also provide us with detailed information about your complaint as much as possible to ensure a quicker response time.
+ </p>
                     </div>
                   
                 </div>

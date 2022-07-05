@@ -29,7 +29,7 @@
 					</div>
 				</section>
 
-                <div class="container special-bottom1 pt-5">
+                <!-- <div class="container special-bottom1 pt-5">
 
 					<div class="row align-items-center">
 						<div class="col-md-6 over_header1" style="background: #F3F1EF;">
@@ -44,12 +44,12 @@
 						
 					</div>
 
-                </div>
+                </div> -->
 			
 			
                 <div class="container py-4">
 
-					<div class="row">
+					<!-- <div class="row">
 						<div class="col">
 							<div class="blog-posts single-post">
 
@@ -84,8 +84,8 @@
 							</div>
 						</div>
 					</div>
-<br>
-					<div class="row">
+<br> -->
+					<!-- <div class="row">
 						<div class="col">
 							<div class="blog-posts single-post">
 
@@ -120,8 +120,8 @@
 							</div>
 						</div>
 					</div>
-<br>
-					<div class="row">
+<br> -->
+					<!-- <div class="row">
 						<div class="col">
 							<div class="blog-posts single-post">
 
@@ -156,7 +156,7 @@
 							</div>
 						</div>
 					</div>
-<br>
+<br> -->
 					<div class="row">
 						<div class="col">
 							<div class="blog-posts single-post">
@@ -170,7 +170,7 @@
 
 									<div class="post-content ml-0">
 
-										<h2 class="font-weight-semi-bold">Useful Links</a></h2>
+										<!-- <h2 class="font-weight-semi-bold">Useful Links</a></h2> -->
                                             <br>
                                         
 
@@ -195,12 +195,14 @@
 						</div>
 					</div>
 <br>
+<br>
+<br>
                     
 
 				</div>
 
 			
-				<div class="container py-4">
+				<!-- <div class="container py-4">
 
 					<div class="row">
 						<div class="col">
@@ -259,7 +261,7 @@
 
 					</div>
 
-				</div>
+				</div> -->
             
 			</div>
             <?php get_footer(); ?>

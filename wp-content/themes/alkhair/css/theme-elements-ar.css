@@ -8,7 +8,7 @@ Theme Version:	8.3.0
 .accordion {
 		/* Modern */
 }
-
+article.post .post-meta {text-align:right}
 .accordion .card {
 	margin-top: 5px;
 }
@@ -3162,7 +3162,7 @@ html.ie9 .call-to-action.button-centered .container > .row > [class*="col-"], ht
 
 .owl-carousel.show-nav-title .owl-nav {
 	position: absolute;
-	top: 550px;
+	top: 530px;
 	right: 0;
 	/* margin-top: -25px; */
 	width: auto;
@@ -10532,13 +10532,13 @@ html[xmlns] .clearfix {
 	padding-right: 15px;
 	position: relative;
 	max-width: 555px;
-	margin-left: 30px;
-	margin-right: 0;
+	margin-right: 30px;
+	margin-left: 0;
 }
 
 .col-half-section.col-half-section-right {
-	margin-left: 0;
-	margin-right: 100px;
+	margin-right: 0;
+	margin-left: 100px;
 }
 
 @media (max-width: 1199px) {
@@ -15227,9 +15227,9 @@ html.gecko .sort-destination.sort-destination-margin > [class*="col-"] {
 	font-family: 'Font Awesome 5 Free';
 	font-weight: 900;
 	font-size: 10px;
-	content: "\f054";
+	content: "\f053";
 	position: absolute;
-	right: 15px;
+	left: 15px;
 	top: 50%;
 	transform: translateY(-50%);
 }
@@ -17044,6 +17044,8 @@ p.featured {
 p.lead {
 	line-height: 28.8px;
 	line-height: 1.8rem;
+	direction:rtl;
+	text-align: right;
 }
 
 p .alternative-font {

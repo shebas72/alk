@@ -24,7 +24,7 @@ a.footer-line-link {padding:0px 20px;}
 .special-bottom{margin-bottom:300px;}
 .special-bottom1{margin-bottom:100px;}
 .white-blog {background:#fff; }
-.blog-pad-left{padding-left:15px; height:275px; border-bottom:3px solid #C5B8B2;}
+.blog-pad-left{padding-right:15px; height:275px; border-bottom:3px solid #C5B8B2;direction:rtl; text-align:right;}
 .login-side{padding: 0 150px;}
 .login-right{padding:25% 20%;}
 .lang-name {padding-right:10px;}
@@ -6503,7 +6503,8 @@ html.dark .text-muted {
 }
 
 #footer.footer-texts-more-lighten p, #footer.footer-texts-more-lighten span, #footer.footer-texts-more-lighten a:not(.btn):not(.no-footer-css), #footer.footer-texts-more-lighten li {
-	color: #271100;
+	color: #271100;	direction: rtl;
+	text-align:right;
 }
 
 #footer.footer-texts-more-lighten a:not(.btn):not(.no-footer-css):hover {
@@ -6566,6 +6567,7 @@ html.dark .text-muted {
 		left: .85rem;
 		right: .85rem;
 		margin-top: 15px;
+	
 		transform: translate3d(0, -50%, 0);
 	}
 }

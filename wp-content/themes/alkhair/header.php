@@ -42,6 +42,14 @@
 		<?php if(ICL_LANGUAGE_CODE=='en') {  ?>
 		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/theme.css">
 		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/theme-elements.css">
+		<style>
+ @media only screen and (max-width: 600px) {
+
+span.webarrow {display: none;}
+}
+
+		</style>
+		
 		<?php } ?> 
 		<?php if(ICL_LANGUAGE_CODE=='ar') {  ?>
 		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/theme-ar.css">
@@ -119,10 +127,67 @@
 										<div class="header-nav-main header-nav-main-square header-nav-main-effect-2 header-nav-main-sub-effect-1">
 											<nav class="collapse">
 												<ul class="nav nav-pills" id="mainNav">
-												
+												<li class="dropdown">
+														<a class="dropdown-item dropdown-toggle" href="<?php echo home_url(); ?>/custody-brokerage/">
+															Custody & Brokerage&nbsp;<span class="webarrow"><i class="fa fa-angle-down"></i></span></a>
+															<ul class="dropdown-menu">
+															<li>
+																<a class="dropdown-item" href="<?php echo home_url(); ?>/custody-services/">
+																Custody Services
+																</a>
+															</li>
+															<li>
+																<a class="dropdown-item" href="<?php echo home_url(); ?>/brokerage-services/">
+																Brokerage Services
+																</a>
+															</li>
+															<li>
+															<a href="<?php echo home_url(); ?>/trading-software/">
+														Trading Software
+														</a>
+															</li>
+
+															</ul>
+														
+													
+													</li>
+													<li class="dropdown">
+														<a class="dropdown-item dropdown-toggle" href="<?php echo home_url(); ?>/asset-management/">
+															Asset Management&nbsp;<span class="webarrow"><i class="fa fa-angle-down"></i></span>
+														</a>
+														<ul class="dropdown-menu">
+														<li>
+																<a class="dropdown-item" href="<?php echo home_url(); ?>/alkhair-capitals-fund/">
+																Alkhair Capital's Funds 
+																</a>
+															</li>
+															<li>
+																<a class="dropdown-item" href="<?php echo home_url(); ?>/alkhair-funds-annual-disclosures/">
+																Alkhair Funds Annual Disclosures
+
+																</a>
+															</li>
+															<li>
+																<a class="dropdown-item" href="<?php echo home_url(); ?>/fund-ads/">
+																Funds’ Announcements
+																</a>
+															</li>
+															<li>
+																<a class="dropdown-item" href="<?php echo home_url(); ?>/fixed-income/">
+																	Fixed Income
+																</a>
+															</li>
+															<li>
+																<a class="dropdown-item" href="<?php echo home_url(); ?>/discretionary-portfolio-management-dpms/">
+																Discretionary Portfolio Management (DPMs) 
+																</a>
+															</li>
+														
+														</ul>
+													</li>
 												<li class="dropdown">
 														<a class="dropdown-item dropdown-toggle" href="<?php echo home_url(); ?>/investment-banking/">
-															Investment Banking&nbsp;<i class="fa fa-angle-down"></i>
+															Investment Banking&nbsp;<span class="webarrow"><i class="fa fa-angle-down"></i></span>
 														</a>
 														<ul class="dropdown-menu">
 															<li>
@@ -148,81 +213,41 @@
 
 															</ul>
 													</li>
-													<li class="dropdown">
-														<a class="dropdown-item dropdown-toggle" href="<?php echo home_url(); ?>/custody-brokerage/">
-															Custody & Brokerage&nbsp;<i class="fa fa-angle-down"></i></a>
-															<ul class="dropdown-menu">
-															<li>
-																<a class="dropdown-item" href="<?php echo home_url(); ?>/custody-services/">
-																Custody Services
-																</a>
-															</li>
-															<li>
-																<a class="dropdown-item" href="<?php echo home_url(); ?>/brokerage-services/">
-																Brokerage Services
-																</a>
-															</li>
-															<li>
-																<a class="dropdown-item" href="<?php echo home_url(); ?>/research-services/">
+												
+													
+												
+													<li>
+													<a class="dropdown-item" href="<?php echo home_url(); ?>/research-services/">
 																Research Services
 																</a>
-															</li>
-
-															</ul>
 														
 													
 													</li>
-													
 													<li class="dropdown">
-														<a class="dropdown-item dropdown-toggle" href="<?php echo home_url(); ?>/asset-management/">
-															Asset Management&nbsp;<i class="fa fa-angle-down"></i>
+														<a class="dropdown-item dropdown-toggle" href="<?php echo home_url(); ?>/trading-software/">
+														Online Services&nbsp;<span class="webarrow"><i class="fa fa-angle-down"></i></span>
 														</a>
 														<ul class="dropdown-menu">
 															<li>
-																<a class="dropdown-item" href="<?php echo home_url(); ?>/asset-management/">
-																Asset Management
+																<a class="dropdown-item" href="https://tadawul.alkhaircapital.com.sa/web/" target="_blank">
+																Alkhair Tadawul
 																</a>
 															</li>
 															<li>
-																<a class="dropdown-item" href="<?php echo home_url(); ?>/alkhair-funds-annual-disclosures/">
-																Alkhair Funds Annual Disclosures
+																<a class="dropdown-item" href="https://amportal.alkhaircapital.com.sa/auth/login" target="_blank">
+																Alkhair Invest
+																</a>
+															</li>
+														
 
-																</a>
-															</li>
-															<li>
-																<a class="dropdown-item" href="<?php echo home_url(); ?>/fund-ads/">
-																	Fund Ads
-																</a>
-															</li>
-															<li>
-																<a class="dropdown-item" href="<?php echo home_url(); ?>/fixed-income/">
-																	Fixed Income
-																</a>
-															</li>
-															<li>
-																<a class="dropdown-item" href="<?php echo home_url(); ?>/discretionary-portfolio-management-dpms/">
-																Discretionary Portfolio Management (DPMs) 
-																</a>
-															</li>
-															<li>
-																<a class="dropdown-item" href="<?php echo home_url(); ?>/alkhair-capitals-fund/">
-																Alkhair Capital's Funds 
-																</a>
-															</li>
-														</ul>
-													</li>
-													<li>
-														<a href="<?php echo home_url(); ?>/trading-software/">
-														Trading Software
-														</a>
-													
+															</ul>
 													</li>
 													
 										
 												</ul>
 											</nav>
 										</div>
-										<a href="https://tadawul.alkhaircapital.com.sa/web/" target="_blank" class="btn btn-modern btn-light rounded-0 mb-2">Online Services</a>
+									
 										<button class="btn header-btn-collapse-nav" data-toggle="collapse" data-target=".header-nav-main nav">
 											<i class="fas fa-bars"></i>
 										</button>
@@ -284,27 +309,37 @@
 												<ul class="nav nav-pills" id="mainNav">
 												<li class="dropdown">
 														<a class="dropdown-item dropdown-toggle" href="<?php echo home_url(); ?>/investment-banking/">
-															Investment Banking&nbsp;<i class="fa fa-angle-down"></i>
+															
+الخدمات المصرفية الاستثمارية
+&nbsp;<i class="fa fa-angle-down"></i>
 														</a>
 														<ul class="dropdown-menu" dir="rtl">
 															<li>
 																<a class="dropdown-item" href="<?php echo home_url(); ?>/debt-capital/">
-																Debt Capital 
+																
+الاقتراض (إصدار الصكوك، الهيكلة والطرح)
+
 																</a>
 															</li>
 															<li>
 																<a class="dropdown-item" href="<?php echo home_url(); ?>/mergers-acquisiton/">
-																Mergers & Acquisiton 
+																
+الاندماج والاستحواذ
+
 																</a>
 															</li>
 															<li>
 																<a class="dropdown-item" href="<?php echo home_url(); ?>/corporate-finance/">
-																Corporate Finance 
+																
+تمويل الشركات
+
 																</a>
 															</li>
 															<li>
 																<a class="dropdown-item" href="<?php echo home_url(); ?>/private-equity/">
-																Private Equity 
+															
+استثمارات الملكية الخاصة
+
 																</a>
 															</li>
 
@@ -313,7 +348,9 @@
 												
 													<li class="dropdown">
 														<a class="dropdown-item dropdown-toggle" href="<?php echo home_url(); ?>/custody-brokerage/">
-															Custody & Brokerage&nbsp;<i class="fa fa-angle-down"></i></a>
+															
+خدمات الحفظ والوساطة المالية
+&nbsp;<i class="fa fa-angle-down"></i></a>
 															<ul class="dropdown-menu">
 															<li>
 																<a class="dropdown-item" href="<?php echo home_url(); ?>/custody-services/">
@@ -337,23 +374,25 @@
 													</li>
 													<li class="dropdown">
 														<a class="dropdown-item dropdown-toggle" href="<?php echo home_url(); ?>/asset-management/">
-															Asset Management&nbsp;<i class="fa fa-angle-down"></i>
+															
+إدارة الأصول
+&nbsp;<i class="fa fa-angle-down"></i>
 														</a>
 														<ul class="dropdown-menu">
-															<li>
-																<a class="dropdown-item" href="<?php echo home_url(); ?>/asset-management/">
-																Asset Management
-																</a>
-															</li>
+														
 															<li>
 																<a class="dropdown-item" href="<?php echo home_url(); ?>/alkhair-funds-annual-disclosures/">
-																Alkhair Funds Annual Disclosures
+																
+الإفصاحات السنوية لصناديق الخير كابيتال
+
 
 																</a>
 															</li>
 															<li>
 																<a class="dropdown-item" href="<?php echo home_url(); ?>/fund-ads/">
-																	Fund Ads
+																	
+اعلانات الصناديق
+
 																</a>
 															</li>
 															<li>
@@ -376,7 +415,9 @@
 
 													<li>
 														<a href="<?php echo home_url(); ?>/trading-software/">
-														Trading Software
+													
+برامج التداول
+
 														</a>
 													
 													</li>

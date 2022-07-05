@@ -233,9 +233,9 @@
 										<div class="post-content">
 
 											<h2 class="font-weight-semibold text-5 line-height-6 mt-3 mb-2"><a href="<?php echo home_url(); ?>/investment-banking">Investment Banking</a></h2>
-											<p>Our solid track record of sound financial performance and investment management has allowed us to structure innovative and strategic Sharia-compliant deals for our clients.</p>
+											<p style="text-align:right" dir="rtl">Our solid track record of sound financial performance and investment management has allowed us to structure innovative and strategic Sharia-compliant deals for our clients.</p>
 
-												<a href="<?php echo home_url(); ?>/investment-banking" class="text-4 purple">Read More</a>
+												<a style="float:right" dir="rtl" href="<?php echo home_url(); ?>/investment-banking" class="text-4 purple">Read More</a>
 										
 
 										</div>
@@ -252,9 +252,9 @@
 										<div class="post-content">
 
 											<h2 class="font-weight-semibold text-5 line-height-6 mt-3 mb-2"><a href="<?php echo home_url(); ?>/trading-software/">Trading Software</a></h2>
-											<p>We provide custody services for both real estate assets and (stocks/securities/shares). That includes actual custody and book custody for records and documents.</p>
+											<p style="text-align:right" dir="rtl">We provide custody services for both real estate assets and (stocks/securities/shares). That includes actual custody and book custody for records and documents.</p>
 
-											<a href="<?php echo home_url(); ?>/trading-software/" class="text-4 purple">Read More</a>
+											<a style="float:right" dir="rtl" href="<?php echo home_url(); ?>/trading-software/" class="text-4 purple">Read More</a>
 
 										</div>
 									</article>
@@ -270,9 +270,9 @@
 										<div class="post-content">
 
 											<h2 class="font-weight-semibold text-5 line-height-6 mt-3 mb-2"><a href="<?php echo home_url(); ?>/asset-management">Asset Management</a></h2>
-											<p>It is a leading investment manager for high net worth individuals, corporations and small institutions, helping your goals by making use of a wide range of investment strategies.</p>
+											<p style="text-align:right" dir="rtl">It is a leading investment manager for high net worth individuals, corporations and small institutions, helping your goals by making use of a wide range of investment strategies.</p>
 
-												<a href="<?php echo home_url(); ?>/asset-management" class="text-4 purple">Read More</a>
+												<a style="float:right" dir="rtl" href="<?php echo home_url(); ?>/asset-management" class="text-4 purple">Read More</a>
 
 										</div>
 									</article>
@@ -293,9 +293,9 @@
 										<div class="post-content">
 
 											<h2 class="font-weight-semibold text-5 line-height-6 mt-3 mb-2"><a href="<?php echo home_url(); ?>/custody-brokerage/">Custody & Brokerage</a></h2>
-											<p>We provide custody services for both real estate assets and (stocks/securities/shares). That includes actual custody and book custody for records and documents and more.</p>
+											<p style="text-align:right" dir="rtl">We provide custody services for both real estate assets and (stocks/securities/shares). That includes actual custody and book custody for records and documents and more.</p>
 
-												<a href="<?php echo home_url(); ?>/custody-brokerage/" class="text-4 purple">Read More</a>
+												<a style="float:right" dir="rtl" href="<?php echo home_url(); ?>/custody-brokerage/" class="text-4 purple">Read More</a>
 										
 
 										</div>
@@ -334,6 +334,69 @@
 				<div class="row" style="padding-top:40px">
 				<div class="col">
 				<div class="table-responsive">
+
+<style>
+
+.modalDialog {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    /* background: rgba(0, 0, 0, 0.8); */
+    z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 100ms ease-in;
+    -moz-transition: opacity 100ms ease-in;
+    transition: opacity 100ms ease-in;
+    pointer-events: none;
+}
+.modalDialog:target {
+    opacity:1;
+    pointer-events: auto;
+}
+.modalDialog > div {
+    max-width: 1000px;
+    width: 90%;
+	height: 400px;
+    position: relative;
+    margin: 10% auto;
+    padding: 20px;
+    border-radius: 3px;
+    background: #fff;
+	border:2px solid #000;
+	z-index: 99999;
+	overflow-y: auto;
+}
+
+.close {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #8c837f;
+    color: #fff;
+    line-height: 25px;
+    position: absolute;
+    right: 2px;
+    text-align: center;
+	z-index: 99999;
+    top: 5px;
+    width: 34px;
+    height: 34px;
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -moz-box-shadow: 1px 1px 3px #000;
+    -webkit-box-shadow: 1px 1px 3px #000;
+    box-shadow: 1px 1px 3px #000;
+    padding-top: 5px;
+}
+.close:hover {
+    background: #8c837f;
+}
+
+</style>
+
 				<?php if(ICL_LANGUAGE_CODE=='en') {  ?>
 					<table class="table table-striped">
 						<thead>
@@ -364,7 +427,7 @@
 						<tbody>
 							<tr>
 								<td>
-									Alkhair Capital Sukuk Plus Fund	
+									<a href="#openModal-about">Alkhair Capital Sukuk Plus Fund</a>	
 								</td>
 								<td>
 									123.4919
@@ -386,10 +449,34 @@
 								</td>
 							</tr>
 							
+							<div id="openModal-about" class="modalDialog">
+      <div>
+         <a href="#close" title="Close" class="close">X</a>
+         <h2>Alkhair Capital Sukuk Plus Fund</h2>
+		 <p>The Fund will invest in a diversified portfolio of sukuk issued by sovereign, quasi-sovereign, corporate issuers and convertible sukuk that will be sourced globally among international and domestic sukuk. The Fund may also invest in murabaha, syndicated murabaha and Shari&rsquo;ah compliant deposits.</p>
+		 <ul>
+	<li>Benchmark: 3m USD Libor +1%</li>
+	<li>Currency: USD</li>
+	<li>Level of Risk: Medium to High</li>
+	<li>Subscription Fee: None</li>
+	<li>Management Fee: 0.75%pa</li>
+	<li>Redemption Fee: 1% of redemption amount for the first year, 0.75% for the second year, 0.5% for the third, none afterward</li>
+	<li>Shari&rsquo;ah Advisor: Shari&rsquo;ah Supervisory Board of Alkhair Capital Saudi Arabia</li>
+	<li>Minimum Initial Subscription: USD 10,000</li>
+	<li>Minimum Additional Subscription: USD 5,000</li>
+	<li>Minimum Redemption: USD 5,000</li>
+	<li>NAV Calculation: Weekly</li>
+	<li>Valuation Day: Each Tuesday that is business day in Saudi Arabia</li>
+	<li>Deadline for Receiving Subscriptions: 2pm Riyadh time on the relevant Valuation Day</li>
+	<li>Deadline for Receiving Redemptions: 2pm Riyadh time, five business days prior the relevant Valuation Day</li>
+	<li>Payment Day of Redeemed Amount: Within no more than four business days</li>
+</ul>
+       </div>
+   </div>
 							
 							<tr>
 								<td>
-									Alkhair Capital Saudi Equity Fund
+								<a href="#openModal-equity">Alkhair Capital Saudi Equity Fund</a>	
 								</td>
 								<td>
 									15.7989
@@ -409,10 +496,33 @@
 								<td>
 									4.56
 								</td>
+								<div id="openModal-equity" class="modalDialog">
+      <div>
+         <a href="#close" title="Close" class="close">X</a>
+         <h2>Alkhair Capital Saudi Equity Fund</h2>
+		 <p>The investment objective of the fund (which is an open public investment fund) to offer a medium to long term capital appreciation through investment principally in Shariah compliant securities already listed on the Saudi Stock Exchange and to be offered in the course of an initial public offering in the Kingdom of Saudi Arabia and in addition the Fund may also invest in Shariah compliant cash equivalents in accordance with the Funds Term and Conditions</p>
+
+<ul>
+	<li>Benchmark: S&amp;P Saudi Arabia Shari&#39;ah Index</li>
+	<li>Currency: SAR</li>
+	<li>Level of Risk: High *potential investor should read the terms and conditions of the fund</li>
+	<li>Subscription Fee: 1%</li>
+	<li>Management Fees: 1.25% per annum of the net asset value of the fund.</li>
+	<li>Early Redemption Fees: 0.25% of the value of the recovered units that were requested to be redeemed within 30 days from the date of subscription, where it is paid to the fund.</li>
+	<li>Shari&rsquo;ah Advisor: Shari&rsquo;ah Supervisory Board of Alkhair Capital Saudi Arabia</li>
+	<li>Minimum Subscription: 10,000 Saudi Riyal.</li>
+	<li>Minimum Additional Subscription: <span style="background-color:transparent; color:#222222">SAR</span> 5,000</li>
+	<li>Minimum Redemption: <span style="background-color:transparent; color:#222222">SAR</span> 5,000</li>
+	<li>Dealing Days: Monday and Wednesday.</li>
+	<li>The last date for receiving subscription / redemption requests: 2:00 p.m. Riyadh time, on the day before the dealing day, provided that the subscriber / redemption request is enforceable.</li>
+</ul>
+
+       </div>
+   </div>
 							</tr>
 							<tr>
 								<td>
-									Alkhair Capital IPO Funds
+									<a href="#openModal-ipo">Alkhair Capital IPO Funds</a>
 								</td>
 								<td>
 									9.1841
@@ -432,10 +542,36 @@
 								<td>
 									1.11
 								</td>
+								<div id="openModal-ipo" class="modalDialog">
+      <div>
+         <a href="#close" title="Close" class="close">X</a>
+         <h2>Alkhair Capital IPO Funds</h2>
+		 <p>The fund aims to invest its assets in shares of joint stock companies during the period of initial public offerings in the primary market or in new shares of listed companies, that haven&rsquo;t completed Five years since their listing in the secondary markets in Saudi Arabia, GCC, Middle East region and North Africa. For the purposes of the Fund&#39;s investments, all the companies that will be invested in by the Fund have to be compliant to Alkahircapitals&rsquo; Sharia standards.</p>
+
+<ul>
+	<li>Benchmark: Alkhair Capital MENA IPO Shariah Index</li>
+	<li>Currency: SAR</li>
+	<li>Level of Risk: high risk * potential investor should read the terms and conditions of the fund.</li>
+	<li>Early redemption fee: 0.25% of the net redemption value within 30 days from the start of the subscription to the fund.</li>
+	<li>Fund management fees: 1.25% annually of net asset value of the fund.</li>
+	<li>Custody fees: 15,000 Saudi Riyals annually from the net asset value under custody, and the due fees will be calculated on each calendar day on the basis of the net asset value of the fund and deducted on a quarterly basis.</li>
+	<li>Auditor fee: 32,000 Saudi Riyals annually</li>
+	<li>Other fees: 0.50% annually of net asset value of the fund * potential investor should read the terms and conditions of the fund.</li>
+	<li>Minimum subscription: 10,000 Saudi Riyals.</li>
+	<li>Minimum additional subscription: 5,000 Saudi Riyals.</li>
+	<li>Minimum investor balance: 5,000 Saudi Riyals.</li>
+	<li>Minimum redemption: 5,000 Saudi Riyals.</li>
+	<li>Subscription and redemption requests accepting days: every working day except for official holidays.</li>
+	<li>The last date for receiving subscription and redemption requests: before 2:00 p.m. Riyadh time on the day before the dealing days (Sunday and Tuesday).</li>
+	<li>Payment Day of the Redeemed Amount : Four working days after the day of valuation .</li>
+</ul>
+
+       </div>
+   </div>
 							</tr>
 							<tr>
 								<td>
-									Alkhair Capital Murabaha Fund
+								<a href="#openModal-mur">Alkhair Capital Murabaha Fund</a>
 								</td>
 								<td>
 									11.5306
@@ -455,6 +591,31 @@
 								<td>
 									0
 								</td>
+								<div id="openModal-mur" class="modalDialog">
+      <div>
+         <a href="#close" title="Close" class="close">X</a>
+         <h2>Alkhair Capital Murabaha Fund</h2>
+		 <p>The objective of the fund (Open public investment fund) is to provide liquidity at the request of the investor, and maintain Capital by investing in the money market instruments, which are in line with the Shariah standards of Al-Khair Capital Saudi Arabia. The fund seeks to achieve positive returns by investing in money market instruments. The fund will not distribute dividends to unit owners and it will be reinvested in the fund for the benefit of unit owners. The return on deposits in Saudi riyals for three months (SIBOR) is taken as a guide to compare the performance of the fund. The fund manager will make every effort to achieve a performance level that rival the performance of the benchmark.</p>
+
+<ul>
+	<li>Benchmark: SAIBOR 3Months (Return on deposits in Saudi riyals for three months).</li>
+	<li>Fund currency : Saudi Riyal</li>
+	<li>Level of Risk: Low to Medium. *potential investor should read the terms and conditions of the fund</li>
+	<li>Management Fees: 0.25% per annum of net asset value of the fund.</li>
+	<li>Custody fees: 15,000 Saudi riyals from the net asset value under custody, and the due from these fees will be calculated on each calendar day on the basis of the net asset value of the fund and deducted on a quarterly basis.</li>
+	<li>Auditor&#39;s fees : 32,000 Saudi riyals per annum</li>
+	<li>Shari&rsquo;ah Advisor: Shari&rsquo;ah Supervisory Board of Alkhair Capital Saudi Arabia</li>
+	<li>Other Fees : Maximum 0.45% per annum *potential investor should read the terms and conditions of the fund</li>
+	<li>Subscription Fees : 0%</li>
+	<li>Early redemption fee: 0%</li>
+	<li>Minimum Subscription : SR 10,000</li>
+	<li>Minimum additional subscription: 5,000 SR</li>
+	<li>Minimum investor balance: 5,000 SAR</li>
+	<li>Minimum Redemption : SR 5,000</li>
+	<li>Subscription / redemption requests accepting days: Every working days</li>
+</ul>
+       </div>
+   </div>
 							</tr>
 						
 						</tbody>

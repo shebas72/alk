@@ -1,7 +1,7 @@
 <?php /* Template Name: announcements */ ?>
 <?php get_header(); ?>
 <div role="main" class="main">
-                <section class="page-header page-header-modern bg-color-light-scale-1 page-header-md">
+                <!-- <section class="page-header page-header-modern bg-color-light-scale-1 page-header-md">
 					<div class="container">
 						<div class="row">
 
@@ -27,7 +27,7 @@
 						
 						</div>
 					</div>
-				</section>
+				</section> -->
 
                 <div class="container py-4">
 

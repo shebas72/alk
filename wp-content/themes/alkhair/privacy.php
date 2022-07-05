@@ -1,7 +1,7 @@
 <?php /* Template Name: privacy */ ?>
 <?php get_header(); ?>
 <div role="main" class="main">
-                <section class="page-header page-header-modern bg-color-light-scale-1 page-header-md">
+                <!-- <section class="page-header page-header-modern bg-color-light-scale-1 page-header-md">
 					<div class="container">
 						<div class="row">
 
@@ -28,7 +28,7 @@
 						
 						</div>
 					</div>
-				</section>
+				</section> -->
 
                 <div  style="background: #F3F1EF;">
                     <div class="container py-4">

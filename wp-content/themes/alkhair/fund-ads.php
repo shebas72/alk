@@ -16,7 +16,7 @@
 <p>&nbsp;</p>
 <div class="row">
 <div class="col-sm-12 col-lg-12">
-<h4>Fund details</h4>
+<h4>Funds’ Announcements</h4>
 <?php query_posts('post_type=funds&showposts=99&cat=4&order=DESC'); if(have_posts()) :  while(have_posts()) : the_post(); ?>
 <section class="call-to-action with-borders mb-5">
 								<div class="col-sm-9 col-lg-9">
